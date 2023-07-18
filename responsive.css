@@ -1,13 +1,14 @@
 @media screen and (max-width:767px) {
     .nav-container {
         flex-direction: column;
+        background-color: rgb(206, 152, 190);
     }
     .nav-items {
         display: block;
-        color: red;
         text-align: center;
     }
     .navbar-btn {
-        display: flex;
+        display: block;
+       
     }
  }
