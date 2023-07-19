@@ -110,4 +110,13 @@
     .sub-img{
         left:12px;
     }
+    #game-section {
+       
+    }
+    .game-container-1 {
+        flex-direction: column;    
+      }
+      .game-container-2 {
+        flex-direction: column;
+      }
  }

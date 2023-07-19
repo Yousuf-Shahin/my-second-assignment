@@ -241,9 +241,6 @@
     margin-top: 10px;
   }
   /* offline game section */
-  #offline-game-section {
-    height: 80vh;
-  }
   .offline-game-container {
     width: 100%;
     display: flex;
@@ -293,7 +290,7 @@
   }
   /* this is game section */
   #game-section {
-    height: 40vh;
+    padding: 70px 0 35px 0;
   }
   .game-container-1 {
     display: flex;
