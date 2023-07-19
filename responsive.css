@@ -1,3 +1,18 @@
+@media screen and (max-width:575px){
+    .banner-info {
+       max-width: 450px;
+      background-position: right;
+    }
+    .banner-img {
+        width: 400px;
+    }
+    .banner-tittle-1 {
+        font-size: 35px;
+    }
+    .banner-tittle-2 {
+        font-size: 60px;
+    }
+}
 @media screen and (max-width:767px) {
     .nav-container {
         flex-direction: column;
@@ -10,4 +25,26 @@
     .navbar-btn {
         display: block;
     }
+    .banner-container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+    .banner-section {
+        background: none;
+    }
+    .banner-info {
+        width: 600px;
+        margin: 10px auto;
+        background-image: url('./assets/images/Group 14.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 15px;
+        
+    
+    }
+    /* .banner-text {
+        text-align:left;
+        margin-left: 141px;
+    } */
  }
