@@ -12,6 +12,16 @@
     .banner-tittle-2 {
         font-size: 60px;
     }
+    .gamer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .online-game-container {
+        width: 50%;
+        margin: 15px auto;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 @media screen and (max-width:767px) {
     .nav-container {
@@ -41,9 +51,10 @@
         background-size: cover;
         padding: 50px 15px;
     }
-    .gamer-container {
+    .online-game-container {
+        width: 60%;
+        margin: 15px auto;
         flex-direction: column;
-        text-align: center;
+        gap: 30px;
     }
-   
  }
