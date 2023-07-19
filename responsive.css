@@ -40,11 +40,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 50px 15px;
-        
-    
     }
-    /* .banner-text {
-        text-align:left;
-        margin-left: 141px;
-    } */
+    .gamer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+   
  }
