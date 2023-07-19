@@ -63,7 +63,7 @@
 }
 /* this is banner section */
 .banner-section {
-    background-image: url('./assets/images/Group 14.png');
+    background-image: url('./assets/images/Group14.png');
     background-repeat: no-repeat;
     background-size: contain;
     padding: 0 42px 0 75px;
@@ -290,4 +290,50 @@
     position: absolute;
     left: -46px;
     width: 121px;
+  }
+  /* this is game section */
+  #game-section {
+    height: 40vh;
+  }
+  .game-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;   
+    margin-right: 20px;        
+  }
+  .game-serial-1 {
+    display: flex;
+    align-items: center;
+    padding: 5px 1px 3px 6px;
+  }
+  .game-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .game-serial-2 {
+    display: flex;
+    align-items: center;
+    padding: 5px 1px 3px 6px;
+  }
+  .game-img {
+    width: 60px;
+    height: 60px;
+  }
+  .game-text {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 35px;
+  }
+  .game-serial-1:hover,.game-serial-2:hover {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid rgb(255, 0, 43);
+    border-radius: 50px;
+    cursor: pointer;
   }
