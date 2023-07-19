@@ -4,10 +4,6 @@
     font-family: Work Sans;
     box-sizing: border-box;
 }
-/* this is header section */
-#header-section {
-
-}
 /* this is navbar section */
 .nav-container {
     display: flex;
@@ -20,6 +16,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    width: fit-content;
 }
 .nav-tittle {
     color: #0B0223;
@@ -31,7 +28,7 @@
     color: #FF42A5;
 }
 .logo-img {
-    width: 86px;
+    width: 70px;
     height: 40px;
     cursor: pointer;
 }
@@ -242,4 +239,21 @@
   .game-img-description {
     width: 300px;
     margin-top: 10px;
+  }
+  /* offline game section */
+  #offline-game-section {
+
+  }
+  .offline-game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .offline-game-tittle-1 {
+    
+  }
+    align-items: center;
+  }
+  .offline-game-tittle-1 {
+    
   }
