@@ -68,8 +68,9 @@
         background-size: cover;
         background: no-repeat;
     }
-    .offline-game-photo img{
-        width: 100%;
+    .offline-game-photo .main-img{
+        width: 58%;
+        /* position: absolute; */
     }
     .banner-section{
         padding: 0 42px 0 42px;
@@ -94,5 +95,22 @@
     }
     .online-game-description{
         font-size: 10px;
+    }
+    .offline-game-text {
+        width: 100%;
+    }
+    .offline-game-container{
+        flex-wrap:wrap;
+    }
+    .offline-game-photo {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .offline-game-tittle-1, .offline-game-tittle-2, .offilne-gamer-description{
+        text-align: center;
+    }
+    .sub-img{
+        left:12px;
     }
  }
