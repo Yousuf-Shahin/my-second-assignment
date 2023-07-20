@@ -132,25 +132,15 @@
         gap:18px
       }
  }
- /* @media screen and (min-width:768px){
-    .banner-container {
-        flex-direction: column;
-        flex-direction: column-reverse;
-    }
-    .online-game-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
- }
  @media screen and (max-width:991px) {
-    .banner-container {
-        flex-direction: column;
-        flex-direction: column-reverse;
-    }
     .gamer-container {
         flex-direction: column;
     }
     .gamer-info {
         text-align: center;
     }
- } */
+    .online-game-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
