@@ -115,13 +115,21 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
-      .footer-link2 {
-        gap:25px;
-        margin-top: 20px;
-      }
       .footer-link {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 8px;
+      }
+      .footer-link2 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         gap: 25px;
-        margin-top: 20px;
+        margin-left: 0;
+      }
+      .contact-icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:18px
       }
  }
  @media screen and (min-width:768px){

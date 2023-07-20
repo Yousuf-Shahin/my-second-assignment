@@ -334,7 +334,7 @@
   #footer-section {
     background: #0B0223;
     color: white;
-    padding: 82px 0 60px 0;
+    padding: 60px 0 60px 0;
   }
   .footer-container {
     width: 60%;
@@ -394,6 +394,7 @@
     display: flex;
     gap:60px;
     margin-top: 30px;
+    margin-left: 76px;
   }
   .footer-item {
     color: rgba(255, 255, 255, 0.60);
@@ -410,5 +411,5 @@
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
