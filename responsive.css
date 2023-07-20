@@ -59,7 +59,6 @@
         flex-direction: column;
         gap: 30px;
     }
-    
     .gamer-img{
         width: 100%;
         background-size: cover;
@@ -110,15 +109,10 @@
     .sub-img{
         left:12px;
     }
-    #game-section {
-       
+    .game-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-    .game-container-1 {
-        flex-direction: column;    
-      }
-      .game-container-2 {
-        flex-direction: column;
-      }
       .footer-link2 {
         gap:25px;
         margin-top: 20px;
@@ -127,4 +121,26 @@
         gap: 25px;
         margin-top: 20px;
       }
+ }
+ @media screen and (min-width:768px){
+    .banner-container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .online-game-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ @media screen and (max-width:991px) {
+    .banner-container {
+        flex-direction: column;
+        
+    }
+    .gamer-container {
+        flex-direction: column;
+    }
+    .gamer-info {
+        text-align: center;
+    }
  }
