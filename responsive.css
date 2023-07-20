@@ -110,6 +110,8 @@
         left:12px;
     }
     .game-container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
         padding-top: 30px;
         padding-bottom: 30px;
     }
