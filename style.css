@@ -214,7 +214,7 @@
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -227,13 +227,13 @@
     opacity: 1;
   }
   .online-game-icon {
-    font-size: 60px;
-    color: black;
+    font-size: 47px;
+    color: #4a3333;
     cursor: pointer;
   }
   .img-text {
     color: red;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 800;
   }
   .tittle {
