@@ -2,6 +2,13 @@
     .nav-logo {
         margin-top: 18px;
     }
+    .nav-items {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .nav-menus {
+        margin-bottom: 15px;
+    }
     .banner-info {
         max-width: 100%;
         background-position: right;
@@ -28,7 +35,6 @@
      }
     .nav-container {
         flex-direction: column;
-        background-color: rgb(206, 152, 190);
     }
     .nav-items {
         display: block;
@@ -146,6 +152,9 @@
         grid-template-columns: repeat(3,1fr);
  }
  @media screen and (max-width:991px) {
+    .nav-menus {
+        margin-bottom: 15px;
+    }
     .gamer-container {
         flex-direction: column;
     }
